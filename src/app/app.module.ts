@@ -25,7 +25,7 @@ import { InMemoryDataService } from './in-memory-data.service';
     FormsModule,
     AppRoutingModule,
     HttpClientModule,
-    HttpClientInMemoryWebApiModule.forRoot(ImMemoryDataService, {dataEncapsulation:false})
+    HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService, {dataEncapsulation:false})
     // intercepts HTTP requests and returns simulated server responses
   ],
   providers: [],
